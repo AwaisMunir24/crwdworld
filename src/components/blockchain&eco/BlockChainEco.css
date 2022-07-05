@@ -1,6 +1,6 @@
 .blockchaineco{
    
-    padding: 45px 0px;
+    padding: 50px 0px;
   position: relative;
 }
 .left-side{
@@ -34,7 +34,7 @@
 }
 .right-side h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 28px;
   color: #7e3adb;
@@ -75,7 +75,7 @@
 }
 @media screen and (max-width: 1400px) {
   .right-side h2{
-    font-size: 30px;
+    font-size: 32px;
   }
   .right-side p{
     font-size: 20px;

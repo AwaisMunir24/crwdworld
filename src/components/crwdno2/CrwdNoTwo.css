@@ -1,5 +1,8 @@
-.top-crwd2 , .lower-crwd2 {
-    padding: 45px 0px;
+/* .top-crwd2{
+    padding-bottom: 50px;
+} */
+.lower-crwd2 {
+    padding: 50px 0px;
 }
 .left-crwd-2{
     background: #FF209A;
@@ -39,7 +42,7 @@
     }  
 }
 @media screen and (max-width: 992px) {
-    .top-crwd2, .lower-crwd2 {
+     .lower-crwd2 {
         padding: 35px 0px;
     }
 }
@@ -55,7 +58,7 @@
     }
 }
 @media screen and (max-width: 576px) {
-    .top-crwd2, .lower-crwd2 {
+   .lower-crwd2 {
         padding: 25px 0px;
     }
     .crwd-2-right p, .lower-crwd2 p {

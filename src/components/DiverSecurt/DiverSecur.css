@@ -34,8 +34,11 @@
 .diversecur-bottom-sec p:last-child{
     margin:0px
 }
-.diversecur-bottom-sec , .diversecur-upper-sec {
-    padding: 45px 0px;
+ .diversecur-upper-sec{
+    padding-bottom: 50px;
+ }
+.diversecur-bottom-sec  {
+    padding: 50px 0px;
 }
 @media screen and (max-width: 1200px) {
     .number-pages {
@@ -46,20 +49,29 @@
         font-size: 18px;   
     }
 }
+@media screen and (max-width: 991px) {
+    .diversecur-bottom-sec  {
+        padding: 35px 0px;
+    }
+    .diversecur-upper-sec{
+        padding-bottom: 35px;
+    }
+}
 @media screen and (max-width: 768px) {
     .diversecur-bottom-sec h2{
         font-size: 30px;
     }
-    .diversecur-bottom-sec, .diversecur-upper-sec {
-        padding: 35px 0px;
-    }
+  
 }
 @media screen and (max-width: 576px) {
     .number-pages {
         width: 100%;
         margin-bottom: 15px;
     }
-    .diversecur-bottom-sec, .diversecur-upper-sec {
+    .diversecur-upper-sec {
+        padding-bottom: 25px;
+    }
+    .diversecur-bottom-sec {
         padding: 25px 0px;
     }
     .diversecur-bottom-sec h2 {

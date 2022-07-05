@@ -1,10 +1,14 @@
-.top-merchant , .bottom-merchant{
-    padding:45px 0px;
+ .bottom-merchant{
+    padding:50px 0px;
+}
+.top-merchant{
+    padding-bottom: 50px;
 }
 .merchant-pars p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    text-align: justify;
 }
 
 .bottom-merchant {
@@ -40,15 +44,26 @@
         font-size: 22px;
     }
 }
+@media screen and (max-width: 991px) {
+    .top-merchant{
+        padding-bottom: 35px;
+    }  
+    .bottom-merchant {
+        padding: 35px 0px;
+    }
+}
 @media screen and (max-width: 768px) {
-    .top-merchant , .bottom-merchant{
+     .bottom-merchant{
         padding:35px 0px;
     } 
 }
 @media screen and (max-width: 576px) {
-    .top-merchant , .bottom-merchant{
+     .bottom-merchant{
         padding:25px 0px;
     } 
+    .top-merchant {
+        padding-bottom: 25px;
+    }
     .merchant-pars p, .inner-section p {
         font-size: 16px;
     } 

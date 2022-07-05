@@ -1,6 +1,6 @@
 .example-top {
     background: linear-gradient(90deg, rgba(104, 22, 205, 10) 0%, rgba(56, 94, 241, 1) 36%);
-    padding: 35px 0px;
+    padding: 50px 0px;
 }
 
 .example-head {
@@ -39,7 +39,7 @@
 }
 
 .example-lower {
-    padding: 35px 0px;
+    padding: 50px 0px;
 }
 
 .para-section {
@@ -68,6 +68,9 @@
 
     .example-lower p {
         font-size: 18px;
+    }
+    .example-top{
+        padding:35px 0px;
     }
 }
 

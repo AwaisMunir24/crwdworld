@@ -40,8 +40,8 @@
 .security-token-lower p:last-child{
     margin:0px
 }
-.security-token-upper-sec , .security-token-lower {
-    padding: 45px 0px;
+ .security-token-lower {
+    padding: 50px 0px;
 }
 @media screen and (max-width: 1200px) {
     .security-token-right p , .security-token-lower p{
@@ -51,10 +51,13 @@
         font-size: 20px;
     }
 }
-@media screen and (max-width: 768px) {
-    .security-token-upper-sec{
+@media screen and (max-width: 991px) {
+    .security-token-lower {
         padding: 35px 0px;
     }
+}
+@media screen and (max-width: 768px) {
+  
     .security-token-lower {
         padding-top: 0px;
         padding-bottom:35px;
@@ -67,9 +70,9 @@
     .security-token-right p, .security-token-lower p {
         font-size: 16px;
     }
-    .security-token-upper-sec {
+    /* .security-token-upper-sec {
         padding: 25px 0px;
-    }
+    } */
     .security-token-lower {
         padding-top: 0px;
         padding-bottom: 25px;

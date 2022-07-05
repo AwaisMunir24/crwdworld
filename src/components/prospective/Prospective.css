@@ -3,8 +3,12 @@
     font-size: 32px;
     font-weight: 700;
 }
-.sec-one-pros , .sec-two-pros, .sec-third-pros {
-    padding: 45px 0px;
+.sec-one-pros{
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+ .sec-two-pros, .sec-third-pros {
+    padding: 50px 0px;
 }
 .main-pros-head{
     font-family: 'Neuropol_X_light';
@@ -80,9 +84,16 @@
     font-family: 'Neuropol_X_light';
     font-size: 26px;
 }
+.sec-third-pros p:last-child{
+    margin:0px;
+}
 @media screen and (max-width: 1400px) {
-    .sec-one-pros , .sec-two-pros, .sec-third-pros {
-        padding: 35px 0px;
+    .sec-one-pros {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+     .sec-two-pros, .sec-third-pros {
+        padding: 50px 0px;
     }  
 }
 @media screen and (max-width: 1200px) {
@@ -97,6 +108,17 @@
         padding-left: 25px !important;
     }
 }
+@media screen and (max-width: 991px) {
+   
+    .sec-one-pros {
+        padding-top: 0;
+        padding-bottom: 35px;
+    }
+    .sec-two-pros, .sec-third-pros {
+        padding: 35px 0px;
+    }
+}
+
 @media screen and (max-width: 768px) {
    
     .col-lg-6.left-list-side:before {

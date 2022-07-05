@@ -1,5 +1,5 @@
 .top-merchant-info{
-    padding:45px 0px;
+    padding:50px 0px;
 }
 .merchant-info-left-sec{
     background: #C200DB;
@@ -53,12 +53,12 @@
     text-align: justify;
 }
 .information-top{
-    padding:45px 0px;
+    padding:50px 0px;
 }
 .information-bottom {
-    padding-bottom: 45px;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    padding-bottom: 50px;
+    /* padding-left: 0px !important;
+    padding-right: 0px !important; */
 }
 @media screen and (max-width: 1200px) {
     .information-top p, .information-bottom p {
@@ -73,6 +73,12 @@
     .top-merchant-info {
         padding: 35px 0px;
     } 
+    .information-bottom{
+        padding-bottom: 35px;
+    }
+    .information-top {
+        padding: 35px 0px;
+    }
 }
 @media screen and (max-width: 768px) {
     .information-top {
