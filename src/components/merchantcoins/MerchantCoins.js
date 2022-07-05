@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./MerchantCoins.css";
 import Heading from "../heading/Heading";
-import jobact from '../../Assessts/Photos/jobact.png';
-import equity from '../../Assessts/Photos/equity.png';
-import marcoin from '../../Assessts/Photos/merchantoin.png';
+import jobact from "../../Assessts/Photos/jobact.png";
+import equity from "../../Assessts/Photos/equity.png";
+import marcoin from "../../Assessts/Photos/merchantoin.png";
 const MerchantCoins = () => {
   return (
     <>
@@ -68,36 +68,50 @@ const MerchantCoins = () => {
           </div>
         </div>
         <div className="bottom-merchant">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-7 col-md-7 col-sm-12">
-                        <div className="d-flex justify-content-center align-items-start main-section-mer">
-                            <img src={jobact}/>
-                            <div className="inner-section ">
-                                <h4>JOBS Act</h4>
-                                <p>CrowdPoint aids companies in utilizing Regulation A+ offerings to realize their capitalization goals, as well as to create "Merchant Coins," which are registered securities/warrants (more detail below)</p>
-                            </div>
-                        </div>
-                        <div className="d-flex justify-content-center align-items-start main-section-mer equity">
-                            <img src={equity}/>
-                            <div className="inner-section ">
-                                <h4>Equity Tokens </h4>
-                                <p>Each equity token relates to the issuing entity's shares, bonds, or other equity or debt instruments.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-5 col-md-5 col-sm-12">
-                    <div className="d-flex justify-content-center align-items-start main-section-mer">
-                            <img src={marcoin}/>
-                            <div className="inner-section ">
-                                <h4>Merchant Coins</h4>
-                                <p>These are digital securities associated with a special class of shares for the issuing entity. These securities behave as transaction processors exclusive to the issuing entity (i.e., the merchant coins are a proprietary payment rail for a company). Merchant coins are essentially "stablecoins" that are pegged to vogonAg
-</p>
-                            </div>
-                        </div>
-                    </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-7 col-md-7 col-sm-12">
+                <div className="d-flex justify-content-center align-items-start main-section-mer">
+                  <img src={jobact} />
+                  <div className="inner-section ">
+                    <h4>JOBS Act</h4>
+                    <p>
+                      CrowdPoint aids companies in utilizing Regulation A+
+                      offerings to realize their capitalization goals, as well
+                      as to create "Merchant Coins," which are registered
+                      securities/warrants (more detail below)
+                    </p>
+                  </div>
                 </div>
+                <div className="d-flex justify-content-center align-items-start main-section-mer equity">
+                  <img src={equity} />
+                  <div className="inner-section ">
+                    <h4>Equity Tokens </h4>
+                    <p>
+                      Each equity token relates to the issuing entity's shares,
+                      bonds, or other equity or debt instruments.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-5 col-md-5 col-sm-12">
+                <div className="d-flex justify-content-center align-items-start main-section-mer">
+                  <img src={marcoin} />
+                  <div className="inner-section ">
+                    <h4>Merchant Coins</h4>
+                    <p>
+                      These are digital securities associated with a special
+                      class of shares for the issuing entity. These securities
+                      behave as transaction processors exclusive to the issuing
+                      entity (i.e., the merchant coins are a proprietary payment
+                      rail for a company). Merchant coins are essentially
+                      "stablecoins" that are pegged to vogonAg
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
       </section>
     </>

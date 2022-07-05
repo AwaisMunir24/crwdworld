@@ -10,7 +10,7 @@ return(
     <div className='top-merchant-info'>
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-4 col-md-4 col-sm-12 merchant-info-left-sec p-0'>
+                <div className='col-lg-4 col-md-5 col-sm-12 merchant-info-left-sec p-0'>
                     <Abs_Number
                     title="03"
                     />
@@ -20,7 +20,7 @@ return(
                     <p>Merchant Coins are issued by one of 158 Sub Industry Companies and are stable instruments that are backed by vogonAg in reserve.</p>
                     <p>They act as the sub-industry stable coin</p>
                 </div>
-                <div className='col-lg-8 col-md-8 col-sm-12 right-merchant-info'>
+                <div className='col-lg-8 col-md-7 col-sm-12 right-merchant-info'>
                     <ul>
                         <li>Redeemable at any time for vogonAg OR the par value of Silver pegged to vogonAg </li>
                         <li>CrowdPoint will develop GICS sub-industry-specific indices to determine the exchange rate of vogonAg to Merchant Coins</li>

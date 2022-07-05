@@ -29,7 +29,7 @@ const [bgCont,setBgCont]=useState(
         <div className="top-vogon">
           <div className="container">
             <div className="row">
-              <div className="col-lg-4 vogon-left-sec p-0 col-md-4 col-sm-12">
+              <div className="col-lg-4 vogon-left-sec p-0 col-md-5 col-sm-12">
                 <div className="">
                   <Abs_Number title="01" />
                   <div className="title-vogon">
@@ -41,7 +41,7 @@ const [bgCont,setBgCont]=useState(
                   </p>
                 </div>
               </div>
-              <div className="col-lg-8 col-md-8 col-sm-12">
+              <div className="col-lg-8 col-md-7 col-sm-12">
                 <div className="vogon-right-sec">
                   <p>
                     Our approach to driving accretive value is deploying a

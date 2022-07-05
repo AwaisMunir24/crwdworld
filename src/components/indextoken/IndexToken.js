@@ -56,7 +56,7 @@ const IndexToken = () => {
         <div className="bottom-token">
           <div className="container">
             <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm-12 token-left-side p-0">
+              <div className="col-lg-4 col-md-5 col-sm-12 token-left-side p-0">
                 <Abs_Number title="04" />
                 <div className="token-title">
                   <h4 className="text-center m-0">Token Index</h4>
@@ -78,7 +78,7 @@ const IndexToken = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-8 col-md-8 col-sm-12 token-right-side">
+              <div className="col-lg-8 col-md-7 col-sm-12 token-right-side">
                 <p>
                   .As an investment asset, a security token is a digital asset
                   that represents certain rights and transfers value from an

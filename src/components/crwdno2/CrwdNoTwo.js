@@ -10,7 +10,7 @@ return(
     <div className="top-crwd2">
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-4 col-md-4 col-sm-12 left-crwd-2 p-0'>
+                <div className='col-lg-4 col-md-5 col-sm-12 left-crwd-2 p-0'>
                     <div className=''>
                         <Abs_Number
                         title="02"
@@ -23,7 +23,7 @@ return(
                     <p>Personalized crwdpoints are assets that act like a special class of stock that acts like a negotiable bond. </p>
                     <p>They are tradeable on secondary markets</p>
                 </div>
-                <div className='col-lg-8 col-md-8 col-sm-12 right-full'>
+                <div className='col-lg-8 col-md-7 col-sm-12 right-full'>
                     <div className='crwd-2-right'>
                         <p>The tokens are trackable, verifiable and are backed by Utility Tokens accessed by both customers and vendors. They are secure and eliminate all the friction existing in the traditional coupon ecosystem.</p>
                         <p>This global coupon capacity environment is trust-less and permission-less and allows additional actors in the process; brands, users, and publishers. Brands shall be able to release less expensive coupon tokens based on excess capacity that are also easy to track and cannot be redeemed multiple numbers of times.</p>
