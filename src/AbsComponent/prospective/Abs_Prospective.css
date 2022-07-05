@@ -1,0 +1,13 @@
+.rounder-broder{
+    border-radius: 50px;
+    border: 1px solid #385EF1;
+    margin-top: 10px;
+}
+.rounder-broder p{
+    margin-bottom: 0px !important;
+    padding: 10px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+
+}

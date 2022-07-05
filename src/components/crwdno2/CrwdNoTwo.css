@@ -1,0 +1,64 @@
+.top-crwd2 , .lower-crwd2 {
+    padding: 45px 0px;
+}
+.left-crwd-2{
+    background: #FF209A;
+    border-radius: 16px;  
+}
+.tilte-crwd-2{
+    background: #C11976;
+}
+.tilte-crwd-2 h4{
+    font-family: Neuropol_X_light;
+    color: white;
+    font-size: 35px;
+    line-height: 70px;
+}
+.left-crwd-2 p{
+    color: white;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: justify;
+    margin: 20px 24px; 
+}
+.crwd-2-right p{
+    font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   text-align: justify; 
+}
+.lower-crwd2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+@media screen and (max-width: 1200px) {
+    .crwd-2-right p , .lower-crwd2 p{
+      
+        font-size: 18px;
+  
+    }  
+}
+@media screen and (max-width: 992px) {
+    .top-crwd2, .lower-crwd2 {
+        padding: 35px 0px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lower-crwd2 {
+    padding-top:0px;
+    }
+    .top-crwd2{
+        padding-bottom: 25px;;
+    }
+    .right-full{
+        padding-top: 15px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .top-crwd2, .lower-crwd2 {
+        padding: 25px 0px;
+    }
+    .crwd-2-right p, .lower-crwd2 p {
+        font-size: 16px;
+    }
+}

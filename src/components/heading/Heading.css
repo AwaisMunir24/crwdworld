@@ -1,0 +1,24 @@
+.headings h2{
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(90deg, rgba(104,22,205,10) 0%, rgba(56,94,241,1) 36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 35px;
+    margin:0px;
+}
+@media screen and (max-width: 768px) {
+  .headings h2 {
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+ 
+}
+@media screen and (max-width:576px){
+  .headings h2 {
+    font-size: 30px;
+  }
+  .bg-para {
+    font-size: 16px;
+  }
+}

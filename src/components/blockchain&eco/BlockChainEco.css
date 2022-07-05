@@ -1,0 +1,169 @@
+.blockchaineco{
+   
+    padding: 45px 0px;
+  position: relative;
+}
+.left-side{
+  padding-right: 50px;
+}
+.left-side h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 45px;
+  margin-bottom: 40px;
+}
+.left-side .business {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.left-side p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: justify;
+}
+.right-side{
+  padding-left: 60px;
+}
+.right-side li {
+  list-style-type: decimal;
+}
+.right-side h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #7e3adb;
+  text-align: center;
+}
+.right-side p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.right-side li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.right-side ul li span {
+  font-family: Neuropol_X_Bold;
+  font-size: 26px;
+}
+.Eco-Logos {
+  margin-bottom: 80px;
+}
+.right-side .blockchain img{
+    width: 200px;
+    max-width: 100%;
+}
+.business-eco:before{
+  background: #d9d9d9;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    z-index: -1;
+
+}
+@media screen and (max-width: 1400px) {
+  .right-side h2{
+    font-size: 30px;
+  }
+  .right-side p{
+    font-size: 20px;
+  }
+  .right-side li{
+    font-size: 18px;
+  }
+  .left-side .business{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .right-side{
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .left-side h4 , .right-side h2{
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .business-eco:before{
+    bottom: 0;
+    height: 53%;
+    top: auto;
+    width: 100%;
+    z-index: -1;
+  }
+  .right-side {
+    padding-left: 0px;
+    padding-top: 35px;
+}
+.left-side {
+  padding-right: 0px;
+}
+.blockchaineco {
+  padding: 35px 0px;
+}
+}
+@media screen and (max-width: 576px) {
+  .business-eco:before {
+ 
+    height: 53%;
+  }
+  .blockchaineco {
+    padding: 25px 0px;
+}
+.left-side p {
+  font-size: 16px;
+}
+.business-eco:before {
+  height: 55%;
+}
+.left-side h4, .right-side h2 {
+  font-size: 22px;
+  line-height: 32px;
+}
+.right-side li {
+  font-size: 16px;
+}
+}
+@media screen and (max-width: 510px) {
+  .business-eco:before {
+    height: 53%;
+}
+}
+@media screen and (max-width: 480px) {
+  .business-eco:before {
+    height: 54%;
+}
+.logoss{
+  flex-direction: column !important;
+}
+}
+@media screen and (max-width: 440px) {
+  .business-eco:before {
+    height: 53%;
+} 
+}
+@media screen and (max-width: 420px) {
+  .business-eco:before {
+    height: 52%;
+} 
+}
+@media screen and (max-width: 370px) {
+  .business-eco:before {
+    height: 49%;
+} 
+}

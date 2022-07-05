@@ -1,0 +1,16 @@
+.box{
+    background: linear-gradient(90deg,#6816cd,#385ef1 36%);
+    border-radius: 50px;
+    max-width: 500px;
+    text-align: center;
+    padding:20px 30px;
+    margin:20px auto;
+}
+.box p {
+    font-family: 'Montserrat', sans-serif;
+
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}

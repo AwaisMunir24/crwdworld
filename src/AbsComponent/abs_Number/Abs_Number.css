@@ -1,0 +1,21 @@
+.outer{
+    background:#fff;
+    border-radius: 50px;
+    margin:25px;
+
+}
+.outer h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.vogon-number{
+    padding:15px;
+}
+@media screen and (max-width: 768px) {
+      .outer h2{
+    font-size: 50px;
+  }
+}

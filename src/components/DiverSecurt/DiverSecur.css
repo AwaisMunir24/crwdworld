@@ -1,0 +1,71 @@
+.numb-pages-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%; 
+}
+.number-pages{
+    width: 19%;
+}
+.diversecur-bottom-sec{
+    background: url('../../Assessts/Photos/deivrsecure.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.diversecur-bottom-sec h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+.diversecur-bottom-sec p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+   margin-bottom: 25px;
+    text-align: justify; 
+}
+.diversecur-bottom-sec p:last-child{
+    margin:0px
+}
+.diversecur-bottom-sec , .diversecur-upper-sec {
+    padding: 45px 0px;
+}
+@media screen and (max-width: 1200px) {
+    .number-pages {
+        width: 49%;
+        margin-bottom: 15px;
+    }
+    .diversecur-bottom-sec p {
+        font-size: 18px;   
+    }
+}
+@media screen and (max-width: 768px) {
+    .diversecur-bottom-sec h2{
+        font-size: 30px;
+    }
+    .diversecur-bottom-sec, .diversecur-upper-sec {
+        padding: 35px 0px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .number-pages {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .diversecur-bottom-sec, .diversecur-upper-sec {
+        padding: 25px 0px;
+    }
+    .diversecur-bottom-sec h2 {
+        font-size: 22px;
+    }
+    .diversecur-bottom-sec p {
+        font-size: 16px;
+    }
+}

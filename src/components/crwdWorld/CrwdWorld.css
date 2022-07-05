@@ -1,0 +1,15 @@
+.crwdworld-section{
+background:#000000;
+overflow: hidden;
+
+}
+.logo {
+    width: 250px;
+    margin: 50px auto;
+}
+.earth{
+    background-image: url('../../Assessts/Photos/earth.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

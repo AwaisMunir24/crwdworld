@@ -1,0 +1,102 @@
+.top-token {
+    padding: 45px 0px;
+}
+.token-left-side{
+    background: #00D7E7;
+    border-radius: 16px; 
+}
+.token-title{
+    background: #0AB5C3;
+}
+.token-title h4{
+    font-family: Neuropol_X_light;
+    color: black;
+    font-size: 35px;
+    line-height: 70px;
+    font-weight: 700;
+}
+.token-listss h4 {
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.token-listss li {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.token-listss p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.token-right-side p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.token-right-side p span{
+    font-size: 22px;
+    font-weight: 700;
+}
+.token-left-side li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: justify;
+    margin: 15px 20px;
+}
+.token-left-side p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 10px 24px;
+    text-align: justify;
+}
+.bottom-token{
+    padding-bottom: 45px;
+}
+@media screen and (max-width: 1024px) {
+    .token-listss h4 {
+        font-size: 26px;
+     
+    }
+}
+@media screen and (max-width: 991px) {
+    .token-left-side li{
+        margin:10px 10px;
+        font-size: 18px;
+
+    }
+    .token-left-side p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .top-token {
+        padding: 35px 0px;
+    }
+    .bottom-token {
+        padding-bottom: 35px;
+    }
+    .token-listss h4 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .top-token {
+        padding: 25px 0px;
+    }
+    .bottom-token {
+        padding-bottom: 25px;
+    }
+    .token-listss li, .token-listss p ,.token-left-side p , .token-left-side li ,.token-right-side p , .token-right-side p span{
+        font-size: 16px;
+    }
+}

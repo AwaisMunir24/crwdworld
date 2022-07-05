@@ -1,0 +1,77 @@
+.security-token-left-side{
+    background: #1D1856;
+    border-radius: 16px;  
+}
+.security-token-title{
+    background: #14113E;
+}
+.security-token-title h4{
+    font-family: Neuropol_X_light;
+    color: #fff;
+    font-size: 35px;
+    line-height: 70px;
+    font-weight: 700; 
+}
+.security-token-left-side p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 10px 24px;
+    text-align: justify;
+
+}
+
+.security-token-right p{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+}
+
+    .security-token-lower p {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: 400;
+
+}
+.security-token-lower p:last-child{
+    margin:0px
+}
+.security-token-upper-sec , .security-token-lower {
+    padding: 45px 0px;
+}
+@media screen and (max-width: 1200px) {
+    .security-token-right p , .security-token-lower p{
+        font-size: 18px;
+    }
+    .security-token-left-side p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .security-token-upper-sec{
+        padding: 35px 0px;
+    }
+    .security-token-lower {
+        padding-top: 0px;
+        padding-bottom:35px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .security-token-left-side p{
+        font-size: 18px;
+    }
+    .security-token-right p, .security-token-lower p {
+        font-size: 16px;
+    }
+    .security-token-upper-sec {
+        padding: 25px 0px;
+    }
+    .security-token-lower {
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+}

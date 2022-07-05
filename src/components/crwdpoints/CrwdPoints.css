@@ -1,0 +1,115 @@
+.top-crwdpoint {
+    background-color: #F2F2F2;
+}
+
+.first,
+.end {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.first p,
+.end p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 0px
+}
+
+.first {
+    text-align: end;
+}
+
+.end {
+    text-align: left;
+}
+
+.low-crwdpoint p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.low-crwdpoint h2 {
+    margin: 0px;
+}
+
+.top-crwdpoint,
+.low-crwdpoint {
+    padding: 45px 0px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .first,
+    .end {
+
+        height: 300px;
+    }
+
+    .top-crwdpoint,
+    .low-crwdpoint {
+        padding: 35px 0px;
+    }
+
+    .first p,
+    .end p {
+        font-size: 16px;
+    }
+
+    .low-crwdpoint p {
+
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .first {
+        height: 150px;
+        text-align: start;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .center img {
+        width: 50%;
+    }
+
+    .end {
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .first {
+        height: 180px;
+    }
+
+    .end {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .top-crwdpoint,
+    .low-crwdpoint {
+        padding: 25px 0px;
+    }
+
+    .low-crwdpoint p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .first p ,
+    .end p {
+        font-size: 14px !important;
+    }
+}

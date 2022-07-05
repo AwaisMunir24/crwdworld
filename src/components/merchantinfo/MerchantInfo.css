@@ -1,0 +1,107 @@
+.top-merchant-info{
+    padding:45px 0px;
+}
+.merchant-info-left-sec{
+    background: #C200DB;
+    border-radius: 16px;  
+}
+.merchant-info-title{
+    background: #9703AD;
+}
+.merchant-info-title h4{
+    font-family: Neuropol_X_light;
+    color: white;
+    font-size: 35px;
+    line-height: 70px;  
+}
+.merchant-info-left-sec p{
+    color: white;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 10px 24px;
+    text-align: justify;
+    padding-top: 25px;
+}
+.right-merchant-info ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 14px; 
+}
+.right-merchant-info ul li:last-child{
+    margin:0px;
+    padding:0px;
+}
+.bottom-merchant-info{
+    background: url('../../Assessts/Photos/performance.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.information-top h4 , .information-bottom h4{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.information-top p, .information-bottom p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-align: justify;
+}
+.information-top{
+    padding:45px 0px;
+}
+.information-bottom {
+    padding-bottom: 45px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+@media screen and (max-width: 1200px) {
+    .information-top p, .information-bottom p {
+        font-size: 18px;
+    } 
+}
+@media screen and (max-width: 991px) {
+    .merchant-info-left-sec p {
+        padding-top: 0px;
+        font-size: 18px;
+    }  
+    .top-merchant-info {
+        padding: 35px 0px;
+    } 
+}
+@media screen and (max-width: 768px) {
+    .information-top {
+        padding: 35px 0px;
+    }
+    .information-bottom {
+        padding-bottom: 35px;
+    }
+    .information-top h4, .information-bottom h4{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .information-bottom {
+        padding-bottom: 25px;
+    }
+    .information-top {
+        padding: 25px 0px;
+    }
+    .information-top h4, .information-bottom h4 {
+        font-size: 22px;
+    }
+    .information-top p, .information-bottom p {
+        font-size: 16px;
+    }
+    .top-merchant-info {
+        padding: 25px 0px;
+    }
+    .right-merchant-info ul li{
+        font-size: 16px;
+    }
+}

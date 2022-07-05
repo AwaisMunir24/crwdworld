@@ -1,0 +1,42 @@
+.number-main-box {
+    background: #6816cd;
+    border-radius: 15px;
+    height: 100%;
+    padding: 30px 0;
+}
+.number{
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 30px;
+    padding: 10px;
+    text-align: center;
+}
+.numbers-title{
+    color: #f5f6f9;
+    font-family: Neuropol_X_Bold;
+    font-size: 25px;
+    font-style: normal;
+    margin: 15px 0;
+    padding: 25px;
+    text-align: center;
+    text-transform: capitalize; 
+}
+.num-disp{
+    padding: 0 30px;
+}
+.num-disp p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: justify;
+
+}
+.number h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+
+}

@@ -1,0 +1,71 @@
+.vogon-left-sec {
+  background: #6816cd;
+  border-radius: 16px;
+}
+.title-vogon {
+  background: #002060;
+}
+.title-vogon h4 {
+  font-family: Neuropol_X_light;
+  color: white;
+  font-size: 35px;
+  line-height: 70px;
+}
+.vogon-left-sec p {
+  color: white;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  margin: 10px 24px;
+}
+.vogon-right-sec p {
+  font-size: 20px;
+  text-align: justify;
+}
+.lower-vogon{
+    background: #F2F2F2;
+}
+.bg-para{
+    font-size: 20px;
+    text-align: justify;  
+    margin-top: 20px;
+}
+.top-vogon, .lower-vogon{
+    padding:45px 0px;
+}
+@media screen and (max-width: 1200px) {
+    .vogon-right-sec p {
+        font-size: 18px;
+    }
+    .bg-para {
+        font-size: 18px;
+        margin-top: 18px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .top-vogon , .lower-vogon  {
+        padding: 35px 0px;
+    } .vogon-left-sec p {
+        font-size: 20px;
+    }
+    .lower-vogon h2{
+        padding-bottom:35px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .vogon-right-sec{
+        padding-top: 15px;
+    } 
+    .vogon-left-sec p {
+        font-size: 18px;
+    } 
+}
+@media screen and (max-width: 576px) {
+    .vogon-left-sec p , .vogon-right-sec p{
+        font-size: 16px;
+    }
+    .top-vogon, .lower-vogon {
+        padding: 25px 0px;
+    }
+   
+}

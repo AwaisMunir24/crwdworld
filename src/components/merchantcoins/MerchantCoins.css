@@ -1,0 +1,58 @@
+.top-merchant , .bottom-merchant{
+    padding:45px 0px;
+}
+.merchant-pars p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bottom-merchant {
+    background: #F2F2F2;
+}
+
+.inner-section h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.inner-section {
+    padding: 0px 20px;
+}
+
+.inner-section p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.equity {
+    padding-top: 25px;
+}
+@media screen and (max-width: 1200px) {
+    .merchant-pars p , .inner-section p {
+      
+        font-size: 18px;
+    }
+    .inner-section h4{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .top-merchant , .bottom-merchant{
+        padding:35px 0px;
+    } 
+}
+@media screen and (max-width: 576px) {
+    .top-merchant , .bottom-merchant{
+        padding:25px 0px;
+    } 
+    .merchant-pars p, .inner-section p {
+        font-size: 16px;
+    } 
+    .equity{
+        padding:0px
+    }
+}
