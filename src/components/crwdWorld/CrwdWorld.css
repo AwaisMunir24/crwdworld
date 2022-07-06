@@ -13,3 +13,6 @@ overflow: hidden;
     background-repeat: no-repeat;
     height: 100vh;
 }
+.crwd-wall-se{
+    max-width: 100%;
+}

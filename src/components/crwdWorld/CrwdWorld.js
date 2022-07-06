@@ -7,7 +7,7 @@ const CrwdWorld =()=>{
 
         <>
         <section className='crwdworld-section'>
-            <div className='container-fluid m-0 p-0'>
+            <div className='container-fluid m-0 p-0 crwd-wall-se'>
                 <div className='row'>
                     <div className='col-12 text-center'>
                         <div className='logo'>
